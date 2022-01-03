@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'joycon_pub'
+package_name = 'joycon_controller'
 
 setup(
     name=package_name,
