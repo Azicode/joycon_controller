@@ -106,11 +106,11 @@ class joycon_controller(Node):
             self.vel.linear.x  = float(-self.joystickx * self.coff_linearx)
             self.vel.angular.z = float(-self.joysticky * self.coff_angularz)
         elif ROTATION == 2:
-            self.vel.linear.x  = float( self.joysticky * self.coff_angularz)
-            self.vel.angular.z = float(-self.joystickx * self.coff_linearx)
+            self.vel.linear.x  = float( self.joysticky * self.coff_linearx)
+            self.vel.angular.z = float(-self.joystickx * self.coff_angularz)
         elif ROTATION == 3:
-            self.vel.linear.x  = float(-self.joysticky * self.coff_angularz)
-            self.vel.angular.z = float( self.joystickx * self.coff_linearx)
+            self.vel.linear.x  = float(-self.joysticky * self.coff_linearx)
+            self.vel.angular.z = float( self.joystickx * self.coff_angularz)
         # Publish Twist
         self.twist_pub.publish(self.vel)
 
