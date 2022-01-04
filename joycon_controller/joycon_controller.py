@@ -125,8 +125,8 @@ class joycon_controller(Node):
 def ros_main(args=None):
     rclpy.init(args=args)
     
-    joycon_controller = joyconController()
-    rclpy.spin(joycon_controller)
+    joycon_controller_class = joycon_controller()
+    rclpy.spin(joycon_controller_class)
 
     joycon_controller.destroy_node()
     rclpy.shutdown()
