@@ -10,6 +10,12 @@ In this package, you can manipulate turtlesim.
 - [pygame](https://www.pygame.org/docs/)
 - [turtlesim](https://docs.ros.org/en/foxy/Tutorials/Turtlesim/Introducing-Turtlesim.html)
 
+## My Environment
+
+- CPU: intel core i5 8250U
+- OS : Ubuntu 20.04.3LTS
+- ROS: ROS2 foxy
+
 ## Installation of turtlesim
 
 ```shell
