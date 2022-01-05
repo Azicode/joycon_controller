@@ -4,6 +4,8 @@
 Using Nintendo Switch Joy Controller on ROS2.
 In this package, you can manipulate turtlesim.
 
+<img src="media_for_readme/VID_20220105_vertical_Trim.gif" width="300">
+
 ## Dependencies
 
 - ROS2 Foxy
@@ -44,20 +46,26 @@ $ colcon build --symlink-install
 ```
 
 ## Demo joycon_controller
-Open a new terminal.
+Open a new terminal, and source setup.
 ```shell
 $ cd ros2_ws
 $ . /opt/ros/foxy/setup.bash
 $ . install/setup.bash
 ```
-Next command will fail, if JoyCon is not connected to PC.
-Please connnect by Bluetooth.
+Next command will fail, if JoyCon is not connected to PC.  
+Please connnect by Bluetooth. 
+
+<img src="media_for_readme/IMG_20220105_JoyConC_small.jpg" width="250">
+
+Run the joycon_controller Node!
+
 ```shell
 $ ros2 run joycon_controller joycon_controller
 ```
 
 ## Change Orientation
-Look at line 16 in [joycon_controller.py](joycon_controller/joycon_controller.py) and edit the value of ROTATON.
+When you want to use Joy-Con L or change the orentation,  
+look at line 16 in [joycon_controller.py](joycon_controller/joycon_controller.py) and edit the value of ROTATON.
 ```joycon_controller.py
 11  #-------- Rotation --------#
 12  # JoyCon R, Vertical   => 0
@@ -66,6 +74,8 @@ Look at line 16 in [joycon_controller.py](joycon_controller/joycon_controller.py
 15  # JoyCon L, Horizontal => 3
 16  ROTATION = 0
 ```
+
+<img src="media_for_readme/VID_20220105_horizontal_Trim.gif" width="300">
 
 ## About writer
 - Azi : Japanese student majoring in marine system engineering.
