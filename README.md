@@ -34,9 +34,7 @@ $ ros2 run turtlesim turtlesim_node
 
 ```shell
 $ . /opt/ros/foxy/setup.bash
-$ cd
-$ mkdir -p ros2_ws/src
-$ cd ros2_ws/src
+$ mkdir -p ros2_ws/src && cd ros2_ws/src
 
 $ git clone https://github.com/Azicode/joycon_controller.git
 $ pip3 install pygame
