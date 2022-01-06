@@ -1,5 +1,5 @@
 # joycon_controller
-<a href="https://qiita.com/Azi/items/6cd6944fc3a94f7f694a" target="_blank" rel="noopener noreferrer">日本語（Qiita）</a>
+[日本語(Qiita)](https://qiita.com/Azi/items/6cd6944fc3a94f7f694a)
 
 ## Introduction
 Using Nintendo Switch Joy Controller on ROS2.
